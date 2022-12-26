@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.App-Content {
+  width: 30%;
+  height: 60%;
+  border: 1px solid orangered;
+  flex-direction: column;
+}
+.box {
+  width: 100%;
+  height: 100%;
+}
+.Square {
+  width: 100%;
+  height: 100%;
+  border: 2px solid orangered;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.Square:hover {
+  background-color: orangered;
+}
+.Square h3 {
+  font-size: 40px;
+}
+.App,
+.App-Content,
+.box,
+.Square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play-again {
+  margin-top: 100px;
+}
+.btn {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: orangered;
+  border: none;
+  color: #fff;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: #fff;
+  color: orangered;
+  border: 1px solid orangered;
+}
+@media (max-width: 1100px) {
+  .App-Content {
+    width: 50%;
+  }
+}
+@media (max-width: 900px) {
+  .App-Content {
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  .App-Content {
+    width: 80%;
+  }
+}

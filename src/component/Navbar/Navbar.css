@@ -1,0 +1,21 @@
+.Navbar {
+  position: absolute;
+  top: 0;
+  height: 10vh;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+.Navbar span {
+  color: orangered;
+}
+
+@media (max-width: 640px) {
+  .game-name {
+    display: none;
+  }
+}

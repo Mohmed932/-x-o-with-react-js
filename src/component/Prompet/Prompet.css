@@ -1,0 +1,52 @@
+.Prompet {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(32, 31, 31, 0.452);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+.Prompet-Content {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 35%;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Prompet-Content h3,
+input,
+button {
+  margin: 10px 0;
+}
+.Prompet-Content input {
+  padding: 10px;
+  font-size: 18px;
+}
+
+@media (max-width: 1300px) {
+  .Prompet-Content {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .Prompet-Content {
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  .Prompet-Content {
+    width: 85%;
+  }
+}
+@media (max-width: 400px) {
+  .Prompet-Content {
+    width: 90%;
+    height: 30%;
+    padding: 20px;
+  }
+}

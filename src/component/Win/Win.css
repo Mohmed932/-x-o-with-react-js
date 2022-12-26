@@ -1,0 +1,36 @@
+.Win {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(32, 31, 31, 0.452);
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Win-Content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  height: 40%;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+@media (max-width: 1300px) {
+  .Win-Content {
+    width: 50%;
+  }
+}
+@media (max-width: 800px) {
+  .Win-Content {
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  .Win-Content {
+    width: 90%;
+    height: 30%;
+  }
+}
